@@ -52,6 +52,9 @@ exclude:
   - _drafts
 
 collections:
+  linear_algebra:
+    output: true
+    permalink: /linear-algebra/:path/
   pages:
     output: true
     permalink: /:collection/:path/
@@ -60,7 +63,8 @@ collections:
     permalink: /:collection/:path/
 
 ordered_collections:
-  - posts
+  - posts           # 博客文章
+  - linear_algebra  # 线性代数书
   - pages
   - others
 
