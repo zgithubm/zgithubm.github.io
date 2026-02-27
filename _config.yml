@@ -52,25 +52,28 @@ exclude:
   - _drafts
 
 collections:
-  linear_algebra:
+  math:
     output: true
-    permalink: /linear-algebra/:path/
+    permalink: /math/:path/
   coding:
     output: true
     permalink: /coding/:path/
-  pages:
+  machine_learning:
     output: true
-    permalink: /:collection/:path/
-  others:
+    permalink: /machine_learning/:path/
+  deep_learning:
     output: true
-    permalink: /:collection/:path/
+    permalink: /dl/:path/
+  large_model:
+    output: true
+    permalink: /lm/:path/
 
 ordered_collections:
-  - posts           # 博客文章
+  - math
   - coding
-  - linear_algebra  # 线性代数书
-  - pages
-  - others
+  - machine_learning
+  - deep_learning
+  - large_model
 
 page_width: 800px
 
