@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "向量内积"
+title: "大模型"
 date: 2026-02-26 14:30:00 +0800
-categories: [线性代数, 向量运算]
-tags: [内积, 点积, 几何意义]
+categories: [大模型]
+tags: [大模型]
 math: true
 toc: true
 ---
