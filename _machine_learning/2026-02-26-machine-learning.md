@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "向量内积"
+title: "机器学习"
 date: 2026-02-26 14:30:00 +0800
-categories: [线性代数, 向量运算]
-tags: [内积, 点积, 几何意义]
+categories: [机器学习]
+tags: [机器学习]
 math: true
 toc: true
 ---
