@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "数组"
+title: "LeetCode-数组"
 date: 2026-02-27 14:30:00 +0800
 categories: [code,leetcode]
 tags: [code,leetcode]
