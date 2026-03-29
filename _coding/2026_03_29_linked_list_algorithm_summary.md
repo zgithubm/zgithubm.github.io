@@ -1,3 +1,13 @@
+---
+layout: post
+title: "链表算法总结"
+date: 2026-03-29 14:30:00 +0800
+categories: [code,leetcode]
+tags: [code,linked-list,leetcode]
+math: true
+toc: true
+---
+
 # 链表算法总结
 
 ## 1. 合并两个有序链表

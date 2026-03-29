@@ -1,3 +1,13 @@
+---
+layout: post
+title: "二叉树算法总结"
+date: 2026-03-29 14:30:00 +0800
+categories: [code,tree,leetcode]
+tags: [code,tree,binary-tree,leetcode]
+math: true
+toc: true
+---
+
 # 二叉树算法总结
 
 ## 1. 二叉树操作
