@@ -14,7 +14,7 @@ toc: true
 
 首先，我们需要对定理进行严格描述。
 
-**输入空间：** 设输入为 $n$ 维向量 $\mathbf{x}$，其每个分量均在单位区间内，即输入空间为 $n$ 维单位立方体 $\mathcal{I}_n = [0,1]^n$。
+**输入空间：** 设输入为 $\mathbf{x} \in \mathbb{R}^n$，其每个分量均在单位区间内，即输入空间为 $\mathcal{I}_n = [0,1]^n$。
 
 **目标函数空间：** 设 $C(\mathcal{I}_n)$ 为定义在 $\mathcal{I}_n$ 上的所有连续实值函数构成的空间，并赋予上确界范数 $\|\mathbf{f}\|_\infty = \sup_{\mathbf{x}\in\mathcal{I}_n} |\mathbf{f}(\mathbf{x})|$。这意味着我们关心"全局一致逼近"。
 
