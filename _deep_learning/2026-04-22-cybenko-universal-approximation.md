@@ -16,7 +16,7 @@ toc: true
 
 **输入空间：** 设输入为 $\mathbf{x} \in \mathbb{R}^n$，其每个分量均在单位区间内，即输入空间为 $\mathcal{I}_n = [0,1]^n$。
 
-**目标函数空间：** 设 $C(\mathcal{I}_n)$ 为定义在 $\mathcal{I}_n$ 上的所有连续实值函数构成的空间，并赋予上确界范数 $\|\mathbf{f}\|_\infty = \sup_{\mathbf{x}\in\mathcal{I}_n} |\mathbf{f}(\mathbf{x})|$。这意味着我们关心"全局一致逼近"。
+**目标函数空间：** 设 $C(\mathcal{I}_n)$ 为定义在 $\mathcal{I}_n$ 上的所有连续实值函数构成的空间，并赋予上确界范数 $\|f\|_\infty = \sup_{\mathbf{x}\in\mathcal{I}_n} |f(\mathbf{x})|$。这意味着我们关心“全局一致逼近”。
 
 **网络结构：** 考虑单隐藏层、激活函数为 Sigmoidal 函数 $\sigma$ 的网络。其输出形式为：
 
@@ -28,9 +28,9 @@ $$
 
 **定理内容：** 由上述形式函数 $G(\mathbf{x})$ 构成的集合（其中 $N$ 任意，参数任意选取），在函数空间 $C(\mathcal{I}_n)$ 中是稠密的。
 
-**数学表述：** $\forall \mathbf{f} \in C(\mathcal{I}_n), \forall \epsilon > 0, \exists$ 一个如上定义的 $G(\mathbf{x})$，使得 $\|\mathbf{f} - G\|_\infty < \epsilon$。
+**数学表述：** $\forall f \in C(\mathcal{I}_n), \forall \epsilon > 0, \exists$ 一个如上定义的 $G(\mathbf{x})$，使得 $\|f - G\|_\infty < \epsilon$。
 
-**直观解释：** 只要隐藏层足够宽，总存在一组参数，使得网络输出 $G(\mathbf{x})$ 与目标函数 $\mathbf{f}(\mathbf{x})$ 在 $\mathcal{I}_n$ 上处处接近，误差小于预设的 $\epsilon$。
+**直观解释：** 只要隐藏层足够宽，总存在一组参数，使得网络输出 $G(\mathbf{x})$ 与目标函数 $f(\mathbf{x})$ 在 $\mathcal{I}_n$ 上处处接近，误差小于预设的 $\epsilon$。
 
 ## 二、证明思路剖析
 
